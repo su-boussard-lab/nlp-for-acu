@@ -1,0 +1,29 @@
+seed: 42                  # random seed for reproducible results.
+
+data:
+  tabular_path: "./data/tabular_feature_matrix.csv"       # Tabular feature matrix path
+  data_path: "./data/fusion_feature_matrix.csv"       # path to the data
+  label_path: "./data/labels.csv"                        # path to the labels
+  test_ids:  "./data/test_ids.csv"                       # test id path
+  train_ids:  "./data/train_ids.csv"                     # train data path
+  info_df:  "./data/10893_OP_35_ICD_STRICT.csv"          # path to info df that contains times of acu for KM curve
+  notes_path: "./data/bert_256_clinical_notes.csv"       # path to the notes dataframe with all the BERT preprocessed notes
+  label_type: ["ANY_30", "ANY_180", "ANY_365"]           # Which labels are being used
+  save_predictions: "./data/predictions/"
+  figures_path: "./figures"
+  model_path: "./data/models"
+
+model:
+  tabular_LASSO: False             # fit tabular data on LASSO
+  language_LASSO: True            # fit language data on LASSO
+  fusion_LASSO: True            # fit multimodal LASSO
+  language_BERT: False             # fit language data on BERT
+  fusion_BERT: False               # fit mutlimodal BERT
+
+tfidf:
+  n_most_frequent: 2000           # Use the N most frequent words appearing in the clinical notes
+
+sensitivity:
+  model_predictions_path: "language_model_predictions_ANY_180.npz"  # path to predictions, as it only calculates the sensitivity for one model
+  model_path: "language_LASSO_ANY_180.pkl" # path to the actual model, which is used to plot the feature importances
+  label_type: "ANY_180"

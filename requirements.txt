@@ -1,0 +1,14 @@
+cycler==0.11.0
+lifelines==0.27.1
+matplotlib==3.5.2
+munch==2.5.0
+negspacy==1.0.2
+nltk==3.7
+numpy==1.23.2
+pandas==1.4.2
+PyYAML==6.0
+scikit_learn==1.1.2
+scipy==1.8.0
+seaborn==0.11.2
+spacy==3.2.4
+uncertainty_calibration==0.0.9

@@ -36,8 +36,6 @@ conda install -r requirements.txt
 ### Source Code Directory Tree
 ```
 .
-├── data                # Folder with synthetic data
-├── figures             # Figures of the experiments
 └── src                 # Source code for metrics and plots           
     └── utils               # Useful functions, such as loggers and config
 

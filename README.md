@@ -55,10 +55,7 @@ To fit the models, and create predictions of the test set, run
 python ./fit_LASSO_models.py
 ```
 
-To fit the BERT models, please use the instructions on the other [GitLab Repository](https://code.stanford.edu/boussard-lab/claudio-master-thesis)
-the weights used for this experiments, were from runs:
-- language: `20220711_nlp_ordinal_distilbert_256_4b`
-- fusion: `20220713_multimodal_logistic_ordinal_2`
+To fit the BERT models, please use the instructions on the other [GitLab Repository](https://code.stanford.edu/boussard-lab/claudio-master-thesis).
 
 To run the experiments and compare the models on their predictive peformance (metrics, calibration, net benefit), run
 ```

@@ -55,7 +55,7 @@ To fit the models, and create predictions of the test set, run
 python ./fit_LASSO_models.py
 ```
 
-To fit the BERT models, please use the instructions on the other [GitLab Repository](https://code.stanford.edu/boussard-lab/claudio-master-thesis).
+To fit the BERT models, please use the instructions on the other [GitHub Repository](https://github.com/su-boussard-lab/bert-for-acu).
 
 To run the experiments and compare the models on their predictive peformance (metrics, calibration, net benefit), run
 ```

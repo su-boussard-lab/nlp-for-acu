@@ -68,6 +68,6 @@ python ./test_sensitivity.py
 ```
 
 ## Authors
-- Claudio Fanconi (fanconic@ethz.ch) (cide)
+- Claudio Fanconi (fanconic@ethz.ch)
 - Marieke van Buchem
 - Tina Hernandez-Boussard
